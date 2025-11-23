@@ -1,0 +1,73 @@
+/* ------------------------------
+   GLOBAL STYLES
+------------------------------- */
+body {
+    background: #f1f4f9;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.card {
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.06);
+}
+
+.stat-card {
+    text-align: center;
+    border-left: 5px solid #0d6efd;
+}
+
+.stat-card h2 {
+    font-weight: 700;
+}
+
+/* ------------------------------
+   USER LIST & TABLE
+------------------------------- */
+
+.user-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #fff;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+.user-row span:first-child {
+    font-weight: bold;
+}
+
+/* ------------------------------
+   CHART
+------------------------------- */
+
+.chart-container {
+    max-width: 420px;
+    margin: auto;
+    padding: 20px;
+}
+
+.dark-mode {
+    background-color: #1e1e1e !important;
+    color: #fff !important;
+}
+
+.dark-mode .card {
+    background: #292929 !important;
+    color: #fff !important;
+}
+
+.dark-mode .user-row {
+    background: #333 !important;
+}
+
+.dark-mode .navbar {
+    background: #111 !important;
+}
